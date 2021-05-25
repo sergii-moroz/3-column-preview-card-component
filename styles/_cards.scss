@@ -1,0 +1,75 @@
+.card {
+    width: 88%;
+    padding: 13%;
+    &:first-child {
+        border-radius: 0.5rem 0.5rem 0 0;
+    }
+    &:last-child {
+        border-radius: 0 0 0.5rem 0.5rem;
+    }
+}
+
+.card-titel {
+    padding-top: 3rem;
+    padding-bottom: 2.8rem;
+    font-size: 4rem;
+    font-family: 'Big Shoulders Display', cursive;
+    color: $buttons;
+    text-transform: uppercase;
+}
+
+.card-description {
+    color: $paragraphs;
+    line-height: 2.4rem;
+    font-size: 1.5rem;
+}
+
+.card-sedan {
+    background-color: $bg-1;
+}
+
+.card-suvs {
+    background-color: $bg-2;
+}
+
+.card-luxury {
+    background-color: $bg-3;
+}
+
+.btn {
+    background-color: $buttons;
+    height: 5rem;
+    border-radius: 5rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2.2rem;
+    cursor: pointer;
+    transition: all 0.25s ease;
+
+    a {
+        padding: 0 3rem;
+        font-size: 1.5rem;
+    }
+
+    &:hover {
+        background: none;
+        border: 2px solid $buttons;
+
+        .link-sedan, .link-suvs, .link-luxury {
+            color: $buttons;
+        }
+    }
+}
+
+.link-sedan {
+    color: $bg-1;
+}
+
+.link-suvs {
+    color: $bg-2;
+}
+
+.link-luxury {
+    color: $bg-3;
+}

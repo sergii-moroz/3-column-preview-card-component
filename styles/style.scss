@@ -1,0 +1,14 @@
+//Variables
+//  Primary
+$bg-1: hsl(31, 77%, 52%);
+$bg-2: hsl(184, 100%, 22%);
+$bg-3: hsl(179, 100%, 13%);
+
+// Neutral
+$paragraphs: hsla(0, 0%, 100%, 0.75);
+$buttons: hsl(0, 0%, 95%);
+
+@import "general";
+@import "cards";
+@import "media_660";
+@import "media_1440";
